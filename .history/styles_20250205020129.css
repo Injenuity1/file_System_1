@@ -13,14 +13,3 @@
     --primary-text: #2C3E50;
     --dropzone-over: #00AACF10;
 }
-
-body {
-    font-family: 'work San', 'sans-serif';
-    background: var(--bg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding: 1rem;
-    color: var(--text);
-}

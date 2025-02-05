@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link ref="styles/text" href="styles.css">
+    <title>File Uploader</title>
+    </link>
+
+    <body>
+        <main>
+            <form class="dropzone-box">
+                <h2>Upload file</h2>
+                <p>Click to upload or drag and drop</p>
+                <form class="dropzone-area" role="region" aria-live="polite">
+                    <label for="upload-file" class="file-load-icon" aria-hidden="true"></label>
+                    <div type="file" required multiple id="upload-file" name="uploaded-file" accept="image/*" aria-describedby="file-info">
+                        <div id="file-info" class="file-info">
+                            <p>No Files Selected</p>
+                        </div>
+                    </div>
+                    <div class="dropzone-description">
+                        <span>Supported formats: JPEG,JPG,PNG,_____</span>
+                        <span>Max file size: 25MB</span>
+                    </div>
+                    <div class="dropzone-actions">
+                        <div class="dropzone-help">
+                        </div>
+                        <div class="action-buttons">
+                            <button type="reset" aria-label="Cancel file Selection">Cancel</button>
+                            <button id="submit-button" type="submit" aria-label="Upload Selected files">Save</button>
+                        </div>
+                    </div>
+                    </div>
+                </form>
+    </body>
+
+</html>
